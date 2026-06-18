@@ -1,0 +1,20 @@
+---
+import { site } from "../config/site";
+---
+
+<section class="section" id="products">
+  <div class="section__inner">
+    <h2 class="section__title">Products</h2>
+    <div class="products__grid">
+      {site.products.map((product) => (
+        <article class="product-card">
+          <div class="product-card__header">
+            <h3 class="product-card__name">{product.name}</h3>
+            <span class="product-card__badge">{product.status}</span>
+          </div>
+          <p class="product-card__description">{product.description}</p>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,14 @@
+---
+import { site } from "../config/site";
+---
+
+<section class="section" id="vision">
+  <div class="section__inner">
+    <h2 class="section__title">Vision</h2>
+    <div class="vision__content">
+      {site.vision.map((paragraph) => (
+        <p>{paragraph}</p>
+      ))}
+    </div>
+  </div>
+</section>
