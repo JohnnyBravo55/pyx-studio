@@ -3,9 +3,19 @@ import { site } from "../config/site";
 ---
 
 <section class="hero">
-  <div class="hero__banner" role="img" aria-label="Night sky over mountains with stars and a compass">
-    <div class="hero__banner-overlay" aria-hidden="true"></div>
-    <h1 class="hero__title">{site.name}</h1>
+  <div class="hero__figure">
+    <div class="hero__image-frame">
+      <img
+        class="hero__image"
+        src="/images/hero-banner.png"
+        alt=""
+        width={1024}
+        height={576}
+        decoding="async"
+      />
+      <div class="hero__figure-overlay" aria-hidden="true"></div>
+      <h1 class="hero__title">{site.name}</h1>
+    </div>
   </div>
   <div class="hero__inner">
     <p class="hero__tagline">{site.tagline}</p>
