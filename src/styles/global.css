@@ -305,11 +305,15 @@ img {
 
 /* Vision */
 
+#vision .section__inner {
+  max-width: 680px;
+  margin-inline: auto;
+}
+
 .vision__content {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
-  max-width: 720px;
 }
 
 .vision__content p {
@@ -318,6 +322,10 @@ img {
 }
 
 /* Products */
+
+#products .section__title {
+  text-align: center;
+}
 
 .products__grid {
   display: grid;
