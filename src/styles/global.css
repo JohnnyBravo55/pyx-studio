@@ -193,10 +193,9 @@ img {
   inset: 0;
   border-radius: var(--radius);
   background: linear-gradient(
-    to right,
-    rgba(10, 22, 40, 0.35) 0%,
-    rgba(10, 22, 40, 0.05) 45%,
-    rgba(10, 22, 40, 0.2) 100%
+    to bottom,
+    rgba(10, 22, 40, 0.1) 0%,
+    rgba(10, 22, 40, 0.45) 100%
   );
   pointer-events: none;
 }
@@ -214,32 +213,16 @@ img {
   z-index: 1;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   margin: 0;
-  padding: 0 clamp(1.25rem, 4vw, 2.5rem);
+  padding: 0 1rem;
   font-size: clamp(1.75rem, 4.5vw, 2.75rem);
   font-weight: 800;
   letter-spacing: -0.03em;
   line-height: 1.05;
-  text-align: left;
+  text-align: center;
   text-shadow: 0 2px 24px rgba(0, 0, 0, 0.75);
   pointer-events: none;
-}
-
-@media (max-width: 520px) {
-  .hero__title {
-    justify-content: center;
-    text-align: center;
-    font-size: clamp(1.5rem, 7vw, 2rem);
-  }
-
-  .hero__figure-overlay {
-    background: linear-gradient(
-      to bottom,
-      rgba(10, 22, 40, 0.1) 0%,
-      rgba(10, 22, 40, 0.55) 100%
-    );
-  }
 }
 
 .hero__tagline {
