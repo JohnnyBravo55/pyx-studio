@@ -305,7 +305,8 @@ img {
 
 /* Vision */
 
-#vision .section__inner {
+#vision .section__inner,
+#products .section__inner {
   max-width: 680px;
   margin-inline: auto;
 }
@@ -323,21 +324,17 @@ img {
 
 /* Products */
 
-#products .section__title {
-  text-align: center;
-}
-
 .products__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: 1fr;
+  gap: 1rem;
 }
 
 .product-card {
   background: var(--color-bg-card);
   border: 1px solid var(--color-border);
   border-radius: 12px;
-  padding: 2rem;
+  padding: 1.5rem;
   transition: border-color 0.2s ease, transform 0.2s ease;
 }
 
