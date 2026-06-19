@@ -3,8 +3,11 @@ import { site } from "../config/site";
 ---
 
 <section class="hero">
-  <div class="hero__inner">
+  <div class="hero__banner" role="img" aria-label="Night sky over mountains with stars and a compass">
+    <div class="hero__banner-overlay" aria-hidden="true"></div>
     <h1 class="hero__title">{site.name}</h1>
+  </div>
+  <div class="hero__inner">
     <p class="hero__tagline">{site.tagline}</p>
     <div class="hero__actions">
       <a href="#products" class="btn btn--primary">View Products</a>
