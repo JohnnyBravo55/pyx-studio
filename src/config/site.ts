@@ -1,7 +1,7 @@
 export const site = {
   name: "Pyx Studio",
   tagline: "Building thoughtful digital products for everyday life.",
-  email: "contact@pyxstudio.com",
+  email: "contact@pyxstudio.nz",
   url: "https://pyx-studio.pages.dev",
   vision: [
     "Pyx Studio is focused on crafting software that feels intuitive, reliable, and genuinely useful.",
