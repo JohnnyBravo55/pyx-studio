@@ -18,7 +18,7 @@ export const site = {
     {
       name: "AI Assisted Shopping",
       description:
-        "An intelligent shopping assistant that understands your preferences, compares options, and helps you make confident purchase decisions faster.",
+        "An intelligent shopping assistant that understands your preferences and takes you straight to the checkout.",
       status: "In development",
     },
   ],
