@@ -12,7 +12,7 @@ export const site = {
     {
       name: "Travel App",
       description:
-        "A modern travel companion that helps you plan trips, track itineraries, and discover places worth visiting—all in one calm, focused experience.",
+        "A modern travel app that lets users see other travelers' transport recommendations for different cities and routes across the globe.",
       status: "In development",
     },
     {
