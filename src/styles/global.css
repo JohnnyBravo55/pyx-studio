@@ -303,21 +303,21 @@ img {
   margin-bottom: 2rem;
 }
 
-/* Vision */
+/* About */
 
-#vision .section__inner,
+#about .section__inner,
 #products .section__inner {
   max-width: 680px;
   margin-inline: auto;
 }
 
-.vision__content {
+.about__content {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
 }
 
-.vision__content p {
+.about__content p {
   color: var(--color-text-muted);
   font-size: 1.0625rem;
 }

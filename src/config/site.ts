@@ -3,10 +3,11 @@ export const site = {
   tagline: "Building thoughtful digital products for everyday life.",
   email: "contact@pyxstudio.nz",
   url: "https://pyx-studio.pages.dev",
-  vision: [
-    "Pyx Studio is focused on crafting software that feels intuitive, reliable, and genuinely useful.",
-    "We believe great products emerge from deep understanding of real problems—not from chasing trends. Every project starts with clarity of purpose and ends with polish in the details.",
-    "Our work spans travel, commerce, and AI-assisted experiences. We ship carefully, iterate thoughtfully, and build tools people reach for every day.",
+  about: [
+    "Pyx Studio builds apps that help people make faster, better everyday decisions.",
+    "Our AI-assisted shopping tools help users turn preferences and budgets into ready-to-review carts, saving time, reducing admin, and making it easier to choose the right products.",
+    "Our travel platform helps users explore destinations, routes, and transport options through real recommendations from other travellers on an interactive globe.",
+    "We build simple, useful software for real-world problems: less searching, less guessing, less wasted time.",
   ],
   products: [
     {
@@ -23,7 +24,7 @@ export const site = {
     },
   ],
   nav: [
-    { label: "Vision", href: "#vision" },
+    { label: "About", href: "#about" },
     { label: "Products", href: "#products" },
     { label: "Contact", href: "#contact" },
   ],
